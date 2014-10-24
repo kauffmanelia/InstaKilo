@@ -14,6 +14,8 @@
 		CAEFCCAE19F9772000DE8A0D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAEFCCAD19F9772000DE8A0D /* Images.xcassets */; };
 		CAEFCCB119F9772000DE8A0D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAEFCCAF19F9772000DE8A0D /* LaunchScreen.xib */; };
 		CAEFCCBD19F9772100DE8A0D /* InstaKiloTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEFCCBC19F9772100DE8A0D /* InstaKiloTests.m */; };
+		CAEFCCC819F97B3300DE8A0D /* InstaKiloCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEFCCC719F97B3300DE8A0D /* InstaKiloCollectionViewCell.m */; };
+		CAEFCCCB19F98F2F00DE8A0D /* CellData.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEFCCCA19F98F2F00DE8A0D /* CellData.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		CAEFCCB619F9772100DE8A0D /* InstaKiloTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstaKiloTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAEFCCBB19F9772100DE8A0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CAEFCCBC19F9772100DE8A0D /* InstaKiloTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InstaKiloTests.m; sourceTree = "<group>"; };
+		CAEFCCC619F97B3300DE8A0D /* InstaKiloCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstaKiloCollectionViewCell.h; sourceTree = "<group>"; };
+		CAEFCCC719F97B3300DE8A0D /* InstaKiloCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstaKiloCollectionViewCell.m; sourceTree = "<group>"; };
+		CAEFCCC919F98F2F00DE8A0D /* CellData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellData.h; sourceTree = "<group>"; };
+		CAEFCCCA19F98F2F00DE8A0D /* CellData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellData.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +91,10 @@
 				CAEFCCA519F9772000DE8A0D /* AppDelegate.m */,
 				CAEFCCA719F9772000DE8A0D /* ViewController.h */,
 				CAEFCCA819F9772000DE8A0D /* ViewController.m */,
+				CAEFCCC919F98F2F00DE8A0D /* CellData.h */,
+				CAEFCCCA19F98F2F00DE8A0D /* CellData.m */,
+				CAEFCCC619F97B3300DE8A0D /* InstaKiloCollectionViewCell.h */,
+				CAEFCCC719F97B3300DE8A0D /* InstaKiloCollectionViewCell.m */,
 				CAEFCCAA19F9772000DE8A0D /* Main.storyboard */,
 				CAEFCCAD19F9772000DE8A0D /* Images.xcassets */,
 				CAEFCCAF19F9772000DE8A0D /* LaunchScreen.xib */,
@@ -220,6 +230,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CAEFCCA919F9772000DE8A0D /* ViewController.m in Sources */,
+				CAEFCCC819F97B3300DE8A0D /* InstaKiloCollectionViewCell.m in Sources */,
+				CAEFCCCB19F98F2F00DE8A0D /* CellData.m in Sources */,
 				CAEFCCA619F9772000DE8A0D /* AppDelegate.m in Sources */,
 				CAEFCCA319F9772000DE8A0D /* main.m in Sources */,
 			);

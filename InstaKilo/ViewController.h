@@ -8,8 +8,18 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UICollectionViewDelegate, UICollectionViewDataSource>
 
+@property (nonatomic, strong) IBOutlet UICollectionView * collectionView;
+@property (nonatomic, strong) NSMutableArray * cellDataArray;
+@property (nonatomic, strong) NSArray * subjects;
+@property (nonatomic, strong) NSMutableArray * cellArraysBySubject;
+@property (nonatomic, strong) NSMutableArray * cellArraysByLocation;
+@property (nonatomic, strong) NSMutableArray * arrayOfCellArrays;
+@property (nonatomic, assign) unsigned int currentSortIndex;
+
+- (IBAction)setSortBySubject:(id)sender;
+- (IBAction)setSortByLocation:(id)sender;
 
 @end
 
